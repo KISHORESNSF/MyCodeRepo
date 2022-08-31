@@ -1,0 +1,10 @@
+CREATE OR REPLACE PROCEDURE TEST_DB.LADU_KISHORE.gittest()
+RETURNS VARCHAR(16777216)
+LANGUAGE JAVASCRIPT
+EXECUTE AS CALLER
+AS
+$$
+
+return 'My first code for CI/CD using GIT with snowflake' ;
+$$
+;
